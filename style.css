@@ -1,0 +1,186 @@
+/* Style Sheet for Swimmer Sue's Wooper Cafe */
+
+body{
+    /* Set background color (light green) */
+    background-color: #FFDDDB;
+}
+
+div#container{
+    /* Middle container settings */
+    margin: auto;
+    width: 1024px;
+    background-color: #FFFFEE;
+}
+
+header{
+    /* Top box settings */
+    display:block;
+    width:100%;
+    height: 100px;
+    background-color: #B28E8C;
+    border: 2px dotted #8A6D6C;
+}
+
+header h1 {
+    /* Header in middle container */
+    color: #FFFFEE;
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+    margin: 35px;
+}
+
+
+/* Navigation settings */
+nav{
+    float:left;
+    width:100%;
+    background-color: #A1B9CC;
+    margin:0;
+    padding:0;
+}
+nav ul{
+    margin:0;
+    padding:0;
+    list-style: none;
+    color:white;
+}
+nav ul li{
+    float:left;
+}
+nav ul li a{
+    display:block;
+    text-decoration:none;
+    color:#FFFFEE;
+    text-shadow: black;
+    text-align: center;
+    padding: 14px 16px;
+}
+nav ul li a:hover{
+    background-color: #95A6B2;
+}
+nav .active{
+    background-color: #95A6B2;
+}
+.keepOpen{
+    clear:both;
+}
+
+/* Footer */
+footer{
+    width:100%;
+    background-color: #B28E8C;
+    color: #FFE3E2;
+    text-align: center;
+}
+
+/* Index style */
+
+p#p-index{
+    float:left;
+    width: 57%;
+    margin-top: 10px;
+    margin: 10px;
+}
+h2#h2-index{
+    width: 30%;
+    float:left;
+    margin: 16px;
+    width: 100%;
+    color: #B28E8C;
+    text-shadow: 1px 1px 1px #8A6D6C;
+}
+
+#woopers{
+    width:350px;
+    margin:20px 20px 20px 20px;
+    border: 15px #A1B9CC outset;
+    float:left;
+}
+
+/* About style */
+
+p#p-about{
+    float:left;
+    width: 57%;
+    margin-top: 10px;
+}
+h2#h2-about{
+    width: 50%;
+    float:left;
+    margin-top: 16px;
+    margin-bottom: 0px;
+}
+
+#sueimg {
+    width: 350px;
+    margin:20px 20px 20px 20px;
+    border: 15px #A1B9CC outset;
+    float:left;
+    
+}
+
+/* Services style */
+h2#h2-services{
+    margin-top: 65px;
+    margin-left: 27px;
+    color: #B28E8C;
+}
+
+#gallery{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    flex-wrap: wrap;
+    width:100%;
+    height: 100%;
+    clear:both;
+}
+figure{
+    float:left;
+    box-shadow: 2px 2px 2px #95A6B2;
+    background-color: #A1B9CC;
+    width: 300px;
+    margin: 20px;
+    flex: 0 0 29%;
+
+}
+
+figure img{
+    display:block;
+    padding: 10px;
+    margin:10px auto;
+    max-height: 200px;
+}
+
+figcaption{
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+}
+
+/* Contact Style */
+h2#h2-contact{
+    margin:15px;
+    float: left;
+}
+
+form#form-contact{
+    display: block;
+    margin-left: 15px;
+    float: left;
+}
+
+form input{
+    margin-bottom: 8px;
+}
+
+form texture{
+    clear:both;
+}
+button{
+    height: 20px;
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+
